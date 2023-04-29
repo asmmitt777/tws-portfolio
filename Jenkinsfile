@@ -16,7 +16,7 @@ pipeline {
         
         stage('deploy') {
             steps {
-                sh 'docker run -d -p 80:80 tws-portfolio-git:latest '
+                sh 'docker run -d -p 81:81 tws-portfolio-git:latest '
             }
         }
     }
